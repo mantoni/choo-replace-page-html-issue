@@ -23,3 +23,7 @@ Expected:
 Actual:
 
 > Nothing happens
+
+Reported here: <https://github.com/yoshuawuyts/choo/issues/484>
+
+The solution is to always return the same type of node as the root node. An assertsion will be thrown in the next choo release to warn in this case.
